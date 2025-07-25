@@ -2,79 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Diaa Arja - Professional CV</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Diaa Arja - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
   <style>
     * {
-      margin: 0; padding: 0; box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
     body {
       font-family: 'Roboto', sans-serif;
-      background: #f1f5f9;
-      color: #333;
-      line-height: 1.6;
+      background: #f8f9fa;
+      color: #212529;
     }
 
     header {
-      background-color: #0a3d62;
-      color: white;
+      background-color: #003366;
+      color: #fff;
       padding: 40px 20px;
       text-align: center;
     }
 
     header h1 {
       font-size: 36px;
-      margin-bottom: 10px;
     }
 
     header p {
       font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .btns {
+      margin-top: 20px;
+    }
+
+    .btns a {
+      display: inline-block;
+      margin: 8px;
+      padding: 10px 20px;
+      background: #00aaff;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btns a:hover {
+      background: #0077cc;
     }
 
     .container {
-      max-width: 1100px;
+      max-width: 1000px;
       margin: 30px auto;
-      padding: 20px;
       background: white;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
 
-    .section {
-      margin-bottom: 30px;
-    }
-
-    .section h2 {
-      color: #0a3d62;
-      margin-bottom: 10px;
-      border-bottom: 2px solid #0a3d62;
-      display: inline-block;
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
       padding-bottom: 5px;
+      margin-top: 30px;
     }
 
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
     }
 
     ul {
-      list-style: disc;
       margin-left: 20px;
     }
 
-    a {
-      color: #0a3d62;
-      text-decoration: none;
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
 
     .footer {
       text-align: center;
-      margin-top: 30px;
+      margin-top: 40px;
       font-size: 14px;
-      color: #666;
+      color: #777;
     }
 
     .signature {
@@ -87,9 +102,15 @@
       opacity: 0.8;
     }
 
-    @media (max-width: 768px) {
-      .grid-2 {
-        grid-template-columns: 1fr;
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .btns a {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
       }
     }
   </style>
@@ -99,10 +120,15 @@
   <header>
     <h1>Dr. Diaa Arja</h1>
     <p>Cosmetic & General Dentist – Riyadh, Saudi Arabia</p>
+    <div class="btns">
+      <a href="CV-Dr-Diaa-Arja.pdf" download>📄 Download CV</a>
+      <a href="mailto:Diaa10002@gmail.com">📧 Contact Me</a>
+      <a href="https://www.linkedin.com/in/dr-diaa-arja" target="_blank">🔗 LinkedIn</a>
+    </div>
   </header>
 
   <div class="container">
-    <div class="section grid-2">
+    <div class="info-grid">
       <div>
         <p><strong>Date of Birth:</strong> May 1981</p>
         <p><strong>Nationality:</strong> Syrian</p>
@@ -111,93 +137,79 @@
       </div>
       <div>
         <p><strong>Phone:</strong> +966 59 700 5468</p>
-        <p><strong>Email:</strong> <a href="mailto:Diaa10002@gmail.com">Diaa10002@gmail.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dr-diaa-arja" target="_blank">linkedin.com/in/dr-diaa-arja</a></p>
+        <p><strong>Email:</strong> Diaa10002@gmail.com</p>
+        <p><strong>Location:</strong> Riyadh, Saudi Arabia</p>
       </div>
     </div>
 
-    <div class="section">
-      <h2>🎯 Career Objective</h2>
-      <p>Dedicated and detail-oriented dentist with over 15 years of experience in cosmetic and general dentistry, aiming to contribute to a reputable medical institution by delivering high-quality patient care, promoting oral health, and staying up-to-date with modern dental techniques.</p>
-    </div>
+    <h2>🎯 Career Objective</h2>
+    <p>Dedicated and detail-oriented dentist with over 15 years of experience in cosmetic and general dentistry, aiming to contribute to a reputable medical institution by delivering high-quality patient care, promoting oral health, and staying up-to-date with modern dental techniques.</p>
 
-    <div class="section">
-      <h2>🎓 Education</h2>
-      <p><strong>Bachelor's Degree in Dental Surgery</strong><br>University of Aleppo, Syria – 2008</p>
-    </div>
+    <h2>🎓 Education</h2>
+    <p><strong>Bachelor's Degree in Dental Surgery</strong><br/>University of Aleppo, Syria – Graduated 2008</p>
 
-    <div class="section">
-      <h2>💼 Professional Experience</h2>
-      <p><strong>Al Muhaidib Dental Center – Riyadh</strong> (May 2024 – Nov 2024)</p>
-      <ul>
-        <li>Performed cosmetic restorations and prosthodontics</li>
-        <li>Veneers, crowns, and whitening procedures</li>
-        <li>Ensured patient comfort and satisfaction</li>
-      </ul>
+    <h2>💼 Professional Experience</h2>
+    <p><strong>Al Muhaidib Dental Center – Riyadh</strong><br/>Cosmetic Dentist (May 2024 – November 2024)</p>
+    <ul>
+      <li>Performed cosmetic restorations and prosthodontics</li>
+      <li>Veneers, crowns, and whitening procedures</li>
+      <li>Ensured patient comfort and satisfaction</li>
+    </ul>
 
-      <p><strong>Al Nadheem Medical Complex – Riyadh</strong> (2020 – 2023)</p>
-      <ul>
-        <li>Restorative and preventive care</li>
-        <li>Root canal treatments and minor surgeries</li>
-        <li>Trained junior assistants</li>
-      </ul>
+    <p><strong>Al Nadheem National Medical Complex – Riyadh</strong><br/>General Dentist (2020 – 2023)</p>
+    <ul>
+      <li>Restorative and preventive care</li>
+      <li>Root canal treatments and minor surgeries</li>
+      <li>Trained junior assistants</li>
+    </ul>
 
-      <p><strong>Breq Al Ibtisama – Riyadh</strong> (2009 – 2020)</p>
-      <ul>
-        <li>Full-scope general and cosmetic dentistry</li>
-        <li>Smile makeovers with veneers and zirconia</li>
-        <li>Built long-term patient relationships</li>
-      </ul>
+    <p><strong>Breq Al Ibtisama Dental Complex – Riyadh</strong><br/>Dental Practitioner (2009 – 2020)</p>
+    <ul>
+      <li>Full-scope general and cosmetic dentistry</li>
+      <li>Smile makeovers with veneers and zirconia</li>
+      <li>Built long-term patient relationships</li>
+    </ul>
 
-      <p><strong>Private Clinic – Idlib, Syria</strong> (2008 – 2009)</p>
-    </div>
+    <p><strong>Private Clinic – Idlib, Syria</strong><br/>General Dentist (2008 – 2009)</p>
 
-    <div class="section">
-      <h2>📜 Certifications</h2>
-      <ul>
-        <li>SCFHS Dental Practitioner License – Valid</li>
-        <li>Infection Control & Patient Safety – MOH</li>
-        <li>Esthetic Dentistry Continuing Education</li>
-      </ul>
-    </div>
+    <h2>📜 Certifications</h2>
+    <ul>
+      <li>SCFHS Dental Practitioner License – Valid</li>
+      <li>Infection Control & Patient Safety – MOH</li>
+      <li>Esthetic Dentistry Continuing Education</li>
+    </ul>
 
-    <div class="section">
-      <h2>🧰 Clinical Skills</h2>
-      <ul>
-        <li>Cosmetic restorations (veneers, crowns)</li>
-        <li>Endodontics (rotary systems)</li>
-        <li>Prosthodontics (bridges, crowns)</li>
-        <li>Surgical tooth extractions</li>
-        <li>Patient pain management</li>
-        <li>Case documentation & digital records</li>
-      </ul>
-    </div>
+    <h2>🧰 Clinical Skills</h2>
+    <ul>
+      <li>Cosmetic restorations (veneers, lumineers, crowns)</li>
+      <li>Endodontics (rotary RCT systems)</li>
+      <li>Prosthodontics (bridges, crowns)</li>
+      <li>Surgical tooth extractions</li>
+      <li>Pain management and patient communication</li>
+      <li>Digital case documentation</li>
+    </ul>
 
-    <div class="section">
-      <h2>🤝 Personal Skills</h2>
-      <ul>
-        <li>Excellent chair-side manner</li>
-        <li>Professional communication</li>
-        <li>Time and clinic management</li>
-        <li>Team collaboration</li>
-        <li>Work under pressure</li>
-      </ul>
-    </div>
+    <h2>🤝 Personal Skills</h2>
+    <ul>
+      <li>Excellent chair-side manner</li>
+      <li>Time management and clinic organization</li>
+      <li>Patient trust and satisfaction</li>
+      <li>Team collaboration and pressure handling</li>
+    </ul>
 
-    <div class="section">
-      <h2>📄 References</h2>
-      <p>Available upon request.</p>
-    </div>
+    <h2>📄 References</h2>
+    <p>Available upon request.</p>
 
     <div class="signature">
       <p><strong>Dr. Diaa Arja</strong></p>
-      <!-- أضف صورة التوقيع لو أحببت -->
+      <!-- يمكنك وضع توقيع حقيقي هنا -->
       <!-- <img src="signature.png" alt="Signature"> -->
     </div>
   </div>
 
   <div class="footer">
-    &copy; 2025 Dr. Diaa Arja. All rights reserved.
+    &copy; 2025 Dr. Diaa Arja – All rights reserved.
   </div>
+
 </body>
 </html>
