@@ -1,100 +1,182 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>السيرة الذاتية | د. ندى العتيبي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Diaa Arja - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
+      padding: 0;
       font-family: 'Cairo', sans-serif;
-      background: #f9f9f9;
+      background-color: #f4f6f9;
       color: #333;
     }
 
-    header {
-      background: #1e3a8a;
-      color: white;
-      padding: 2rem;
-      text-align: center;
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 10px;
     }
 
-    header h1 {
+    h1 {
+      text-align: center;
+      color: #0d47a1;
+    }
+
+    h2 {
+      border-bottom: 2px solid #0d47a1;
+      padding-bottom: 5px;
+      margin-top: 30px;
+      color: #0d47a1;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .signature {
+      text-align: right;
+      margin-top: 40px;
+    }
+
+    .signature img {
+      width: 150px;
+      opacity: 0.8;
+    }
+
+    .linkedin {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .linkedin a {
+      color: #0d47a1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    ul {
       margin: 0;
-      font-size: 2.5rem;
+      padding-left: 20px;
     }
 
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-      color: #cbd5e1;
-    }
-
-    nav {
-      background: #3b82f6;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    nav button {
-      background: transparent;
-      border: none;
-      color: white;
-      font-size: 1rem;
-      padding: 1rem;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-
-    nav button:hover {
-      background: #2563eb;
-    }
-
-    section {
-      padding: 2rem;
-      display: none;
-    }
-
-    section.active {
-      display: block;
-      animation: fadeIn 0.5s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    .section-title {
-      font-size: 1.8rem;
-      color: #1e3a8a;
-      border-bottom: 2px solid #1e3a8a;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #e2e8f0;
-      color: #555;
-      font-size: 0.9rem;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-      nav button {
-        padding: 0.5rem;
-        font-size: 0.9rem;
-      }
+    .section {
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Dr. Diaa Arja</h1>
 
-<header>
-  <h1>د. ندى العتيبي</h1>
+    <div class="section info-grid">
+      <div>
+        <p><strong>Date of Birth:</strong> May 1981</p>
+        <p><strong>Nationality:</strong> Syrian</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Languages:</strong> Arabic (native), English (good)</p>
+      </div>
+      <div>
+        <p><strong>Location:</strong> Riyadh, Saudi Arabia</p>
+        <p><strong>Phone:</strong> +966 59 700 5468</p>
+        <p><strong>Email:</strong> Diaa10002@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎯 Career Objective</h2>
+      <p>Dedicated and detail-oriented dentist with over 15 years of experience in cosmetic and general dentistry, aiming to contribute to a reputable medical institution by delivering high-quality patient care, promoting oral health, and staying up-to-date with modern dental techniques.</p>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <p><strong>Bachelor's Degree in Dental Surgery</strong><br/>University of Aleppo, Syria — Graduated 2008</p>
+    </div>
+
+    <div class="section">
+      <h2>💼 Professional Experience</h2>
+      <p><strong>Al Muhaidib Dental Center – Riyadh</strong><br/>Cosmetic Dentist (May 2024 – November 2024)</p>
+      <ul>
+        <li>Performed cosmetic restorations and prosthodontics</li>
+        <li>Veneers, crowns, and whitening procedures</li>
+        <li>Ensured patient comfort and satisfaction</li>
+      </ul>
+
+      <p><strong>Al Nadheem National Medical Complex – Riyadh</strong><br/>General Dentist (2020 – 2023)</p>
+      <ul>
+        <li>Operated a full-time clinic for restorative and preventive care</li>
+        <li>Root canal treatments and minor oral surgeries</li>
+        <li>Trained junior assistants and collaborated with other specialists</li>
+      </ul>
+
+      <p><strong>Breq Al Ibtisama Dental Complex – Riyadh</strong><br/>Dental Practitioner (2009 – 2020)</p>
+      <ul>
+        <li>Full-scope general and cosmetic dentistry</li>
+        <li>Led cosmetic smile makeovers using veneers and zirconia crowns</li>
+        <li>Built long-term patient relationships and trust</li>
+      </ul>
+
+      <p><strong>Private Dental Clinic – Idlib, Syria</strong><br/>General Dentist (2008 – 2009)</p>
+    </div>
+
+    <div class="section">
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>Saudi Commission for Health Specialties (SCFHS) – Dental Practitioner License (Valid)</li>
+        <li>Infection Control & Patient Safety – MOH Course</li>
+        <li>Continuing Education in Esthetic Dentistry</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🧰 Skills</h2>
+      <ul>
+        <li>Cosmetic restorations (veneers, lumineers, crowns)</li>
+        <li>Endodontics (rotary RCT systems)</li>
+        <li>Prosthodontics: bridges, crowns</li>
+        <li>Simple and surgical tooth extractions</li>
+        <li>Patient communication & pain management</li>
+        <li>Digital record keeping and case documentation</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🤝 Personal Skills</h2>
+      <ul>
+        <li>Professional communication and teamwork</li>
+        <li>Excellent chair-side manner</li>
+        <li>Time management and clinic organization</li>
+        <li>Patient trust building and satisfaction focus</li>
+        <li>Ability to work under pressure and adapt to fast-paced environments</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📄 References</h2>
+      <p>Available upon request</p>
+    </div>
+
+    <div class="linkedin">
+      <p><a href="https://www.linkedin.com/in/dr-diaa-arja" target="_blank">🔗 Visit LinkedIn Profile</a></p>
+    </div>
+
+    <div class="signature">
+      <p><strong>Dr. Diaa Arja</strong></p>
+      <!-- ضع هنا صورة التوقيع إذا كانت متوفرة -->
+      <!-- <img src="signature.png" alt="Signature"> -->
+    </div>
+  </div>
+</body>
+</html>
