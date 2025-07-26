@@ -1,47 +1,244 @@
-<div class="info-grid">
-  <div style="padding: 20px; border: 1px solid #dbeafe; border-radius: 10px; background-color: #f0f8ff;">
-    <p><i class="fa fa-phone"></i> <a href="tel:+966597005468" class="info-btn">+966 59 700 5468</a></p>
-    <p><i class="fa fa-envelope"></i> <a href="mailto:Diaa10002@gmail.com" class="info-btn">Diaa10002@gmail.com</a></p>
-    <p><i class="fa fa-location-dot"></i> <span class="info-static">Riyadh, Saudi Arabia</span></p>
-    <div class="btn-group">
-      <a href="tel:+966597005468"><i class="fa fa-phone"></i> Call Now</a>
-      <a href="mailto:Diaa10002@gmail.com"><i class="fa fa-envelope"></i> Send Email</a>
-    </div>
-  </div>
-  <div style="padding: 20px; border: 1px solid #dbeafe; border-radius: 10px; background-color: #f0f8ff;">
-    <p><i class="fa fa-flag"></i> <strong>Nationality:</strong> Syrian</p>
-    <p><i class="fa fa-calendar"></i> <strong>Date of Birth:</strong> 1985</p>
-    <p><i class="fa fa-heart"></i> <strong>Status:</strong> Married</p>
-    <p><i class="fa fa-language"></i> <strong>Languages:</strong> Arabic (native), English (good)</p>
-    <div class="btn-group">
-      <a href="#skills"><i class="fa fa-tooth"></i> View Skills</a>
-      <a href="#contact"><i class="fa fa-envelope"></i> Contact Info</a>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Diaa Arja - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background-color: #f4faff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #005bb5, #007acc);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+    nav {
+      background-color: #004b99;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 102, 204, 0.1);
+    }
+    h2 {
+      color: #005bb5;
+      margin-top: 40px;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 8px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    .info-btn {
+      color: #007acc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .info-static {
+      font-weight: 500;
+      color: #333;
+    }
+    .btn-group {
+      text-align: left;
+      margin-top: 10px;
+    }
+    .btn-group a {
+      margin: 8px 5px 0 0;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .btn-group a:hover {
+      background-color: #005fa3;
+      transform: translateY(-2px);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .signature {
+      text-align: right;
+      margin-top: 50px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #eaf4ff;
+      color: #555;
+      margin-top: 50px;
+    }
+    a {
+      color: #007acc;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+      .btn-group a {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dr. Diaa Arja</h1>
+    <p>Cosmetic & General Dentist – Riyadh, Saudi Arabia</p>
+  </header>
 
-<style>
-  .info-btn {
-    color: #007acc;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .info-static {
-    font-weight: 500;
-    color: #333;
-  }
-  .btn-group a {
-    margin: 8px 5px 0 0;
-    padding: 8px 16px;
-    border-radius: 6px;
-    background-color: #007acc;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    transition: background 0.3s;
-  }
-  .btn-group a:hover {
-    background-color: #005fa3;
-  }
-</style>
+  <nav>
+    <a href="#objective"><i class="fas fa-bullseye"></i> Objective</a>
+    <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+    <a href="#skills"><i class="fas fa-tooth"></i> Skills</a>
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="info-grid">
+      <div style="padding: 20px; border: 1px solid #dbeafe; border-radius: 10px; background-color: #f0f8ff;">
+        <p><i class="fa fa-phone"></i> <a href="tel:+966597005468" class="info-btn">+966 59 700 5468</a></p>
+        <p><i class="fa fa-envelope"></i> <a href="mailto:Diaa10002@gmail.com" class="info-btn">Diaa10002@gmail.com</a></p>
+        <p><i class="fa fa-location-dot"></i> <span class="info-static">Riyadh, Saudi Arabia</span></p>
+        <div class="btn-group">
+          <a href="tel:+966597005468"><i class="fa fa-phone"></i> Call Now</a>
+          <a href="mailto:Diaa10002@gmail.com"><i class="fa fa-envelope"></i> Send Email</a>
+        </div>
+      </div>
+      <div style="padding: 20px; border: 1px solid #dbeafe; border-radius: 10px; background-color: #f0f8ff;">
+        <p><i class="fa fa-flag"></i> <strong>Nationality:</strong> Syrian</p>
+        <p><i class="fa fa-calendar"></i> <strong>Date of Birth:</strong> 1985</p>
+        <p><i class="fa fa-heart"></i> <strong>Status:</strong> Married</p>
+        <p><i class="fa fa-language"></i> <strong>Languages:</strong> Arabic (native), English (good)</p>
+        <div class="btn-group">
+          <a href="#skills"><i class="fa fa-tooth"></i> View Skills</a>
+          <a href="#contact"><i class="fa fa-envelope"></i> Contact Info</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="objective">
+      <h2>🎯 Career Objective</h2>
+      <p>Dedicated and detail-oriented dentist with over 15 years of experience in cosmetic and general dentistry, seeking to contribute to a leading healthcare institution by providing high-quality dental care and continuously enhancing patient experiences through modern techniques.</p>
+    </section>
+
+    <section id="experience">
+      <h2>💼 Professional Experience</h2>
+      <p><strong>Al Muhaidib Dental Center – Riyadh</strong> <em>(May 2024 – Nov 2024)</em></p>
+      <ul>
+        <li>Performed advanced cosmetic restorations and prosthodontic procedures</li>
+        <li>Specialized in veneers, crowns, and teeth whitening treatments</li>
+        <li>Focused on patient satisfaction and long-term dental care</li>
+      </ul>
+      <p><strong>Al Nadheem Medical Complex – Riyadh</strong> <em>(2020 – 2023)</em></p>
+      <ul>
+        <li>Provided comprehensive restorative and preventive care</li>
+        <li>Expertise in root canal treatments and oral surgeries</li>
+        <li>Mentored and trained junior dental assistants</li>
+      </ul>
+      <p><strong>Breq Al Ibtisama Dental Complex – Riyadh</strong> <em>(2009 – 2020)</em></p>
+      <ul>
+        <li>Delivered general and cosmetic dentistry services</li>
+        <li>Performed smile makeovers with veneers and zirconia crowns</li>
+        <li>Built strong, long-term patient relationships</li>
+      </ul>
+      <p><strong>Private Clinic – Idlib, Syria</strong> <em>(2008 – 2009)</em></p>
+    </section>
+
+    <section id="certifications">
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>SCFHS License – Valid</li>
+        <li>MOH Certified in Infection Control & Patient Safety</li>
+        <li>Continuing Education in Esthetic Dentistry</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>🧰 Clinical Skills</h2>
+      <ul>
+        <li>Cosmetic restorations including veneers and lumineers</li>
+        <li>Rotary endodontic treatments</li>
+        <li>Prosthodontics: crowns, bridges, removable prostheses</li>
+        <li>Tooth extractions including surgical cases</li>
+        <li>Digital charting and patient record management</li>
+        <li>Effective patient communication and pain control</li>
+      </ul>
+    </section>
+
+    <section id="personal-skills">
+      <h2>🤝 Personal Skills</h2>
+      <ul>
+        <li>Excellent chair-side manner and empathy</li>
+        <li>Efficient clinic and time management</li>
+        <li>Strong team collaboration and leadership</li>
+        <li>Adaptable in high-pressure environments</li>
+      </ul>
+    </section>
+
+    <section id="references">
+      <h2>📄 References</h2>
+      <p>Available upon request.</p>
+    </section>
+
+    <div class="signature">Dr. Diaa Arja</div>
+
+    <div class="btn-group" id="contact">
+      <a href="CV-Dr-Diaa-Arja.pdf" download><i class="fas fa-download"></i> Download CV</a>
+      <a href="mailto:Diaa10002@gmail.com"><i class="fas fa-envelope"></i> Contact via Email</a>
+      <a href="https://www.linkedin.com/in/dr-diaa-arja" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 Dr. Diaa Arja – All rights reserved.
+  </footer>
+</body>
+</html>
